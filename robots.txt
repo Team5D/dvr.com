@@ -1,3 +1,3 @@
 User-agent: *
-Allow: /
+Crawl-delay: 86400  # 24 hours in seconds
 Sitemap: https://dvr.com/sitemap.xml
