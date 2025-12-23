@@ -1,4 +1,72 @@
+# robots.txt for DVR.COM - Optimized for AI Crawlers
+
+# Allow all bots including AI/LLM crawlers
 User-agent: *
 Allow: /
-Crawl-delay: 86400  # 24 hours in seconds
+
+# Specific AI/LLM Crawler Agents
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebot
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+# Sitemap location (create this file later)
 Sitemap: https://dvr.com/sitemap.xml
+
+# Crawl-delay (optional - helps prevent overload)
+Crawl-delay: 1
